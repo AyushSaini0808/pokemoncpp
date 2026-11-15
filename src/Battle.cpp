@@ -39,7 +39,7 @@ const Pokemon *Battle::winner() const {
 
 void Battle::performMove(Pokemon &attacker,  Pokemon &defender, std::size_t moveIndex) {
     Move& move = attacker.move(moveIndex);
-    if (!move.hasPP()) {
+    if (!move.usePP()) {
         std::cout<<attacker.name()<<" has no PP left for "<<move.name()<<'\n';
         return;
     }

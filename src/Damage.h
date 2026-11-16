@@ -1,6 +1,4 @@
-//
-// Created by Ayush Saini on 14/11/26.
-//
+// The Damage.h is an interface that only exposes the calculateDamage() function
 
 #ifndef POKEMON_DAMAGE_H
 #define POKEMON_DAMAGE_H

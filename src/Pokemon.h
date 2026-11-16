@@ -1,7 +1,4 @@
-//
-// Created by Ayush Saini on 13/11/26.
-//
-
+// The Pokemon.h file is an interface for all the properties associated with a pokemon
 #ifndef POKEMON_POKEMON_H
 #define POKEMON_POKEMON_H
 #include <ostream>
@@ -14,6 +11,7 @@
 class Pokemon {
 public:
     static constexpr std::size_t kMaxMoves=4; // we don't want to provide this max move to every pokemon we are just telling the compiler to declare this variable before any pokemon is created coz it will be universal
+
     // No default constructor so that we ensure that we don't create an empty object as it would be meaningless
     Pokemon(std::string name,Type type,int level, int maxHP,int attack,int defence, int speed);
 

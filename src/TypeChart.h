@@ -1,7 +1,4 @@
-//
-// Created by Ayush Saini on 14/11/26.
-//
-
+// The TypeChart.h will only expose the effectiveness() method
 #ifndef POKEMON_TYPECHART_H
 #define POKEMON_TYPECHART_H
 #include "Type.h"

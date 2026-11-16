@@ -1,13 +1,9 @@
-//
-// Created by Ayush Saini on 13/11/26.
-//
-
+// The Move.h file is an interface for the properties associated with a move
 #ifndef POKEMON_MOVE_H
 #define POKEMON_MOVE_H
+
 #include <string>
-
 #include "Type.h"
-
 
 class Move {
 public:

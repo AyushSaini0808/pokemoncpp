@@ -1,3 +1,5 @@
+// The Battle.h file is an interface that will expose two functions: one to prompt the user,
+// and other for randomly choosing the enemy pokemon's move
 #ifndef POKEMON_BATTLEUI_H
 #define POKEMON_BATTLEUI_H
 #include <optional>

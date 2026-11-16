@@ -1,7 +1,5 @@
-//
-// Created by Ayush Saini on 13/11/26.
-//
-
+// The Type.h files is used for enumerating the "type" of pokemon or move,
+// along with a function to return the type as a string
 #ifndef POKEMON_TYPE_H
 #define POKEMON_TYPE_H
 #include <iostream>

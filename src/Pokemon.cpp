@@ -1,7 +1,3 @@
-//
-// Created by Ayush Saini on 13/11/26.
-//
-
 #include "Pokemon.h"
 #include <utility>
 #include <algorithm>
@@ -42,7 +38,7 @@ Move& Pokemon::move(std::size_t index) {
 const Move &Pokemon::move(std::size_t index) const {
     return moves_.at(index);
 }
-
+// Overloading the stream insertion operator so that we can easily display the Pokemon's info
 std::ostream& operator<<(std::ostream& os, const Pokemon& p) {
     os <<p.name() << " [" <<toString(p.type())<<"] Lv "<<p.level()<<" HP "<<p.currentHP()<<"/"<<p.maxHP()<<" ATK "<<p.attack()<<" DEF "<<p.defence()<<" SPD "<<p.speed()<<"\n";
     for (std::size_t i=0;i<p.moveCount();i++) {

@@ -24,14 +24,13 @@ namespace {
         set(Type::Water, Type::Water, 0.5f);
         set(Type::Water, Type::Fire, 2.0f);
 
-
         set(Type::Grass, Type::Grass, 0.5f);
         set(Type::Grass, Type::Water, 2.0f);
         set(Type::Grass, Type::Fire, 0.5f);
-        set(Type::Grass, Type::Electric, 2.0f);
 
 
         set(Type::Electric, Type::Grass, 0.5f);
+        set(Type::Electric, Type::Water, 2.0f);
         set(Type::Electric, Type::Electric, 0.5f);
 
         return t;

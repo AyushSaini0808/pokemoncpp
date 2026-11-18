@@ -1,10 +1,11 @@
 #include<gtest/gtest.h>
 #include <Battle.h>
-
-Pokemon makePokemon(const std::string& n, int hp, int speed, int accuracy=100 ) {
-    Pokemon p (n,Type::Normal,50,hp,100,100,speed);
-    p.addMove(Move("Hit",Type::Normal,100,accuracy,10));
-    return p;
+namespace {
+    Pokemon makePokemon(const std::string& n, int hp, int speed, int accuracy=100 ) {
+        Pokemon p (n,Type::Normal,50,hp,100,100,speed);
+        p.addMove(Move("Hit",Type::Normal,100,accuracy,10));
+        return p;
+    }
 }
 
 TEST(BattleTest, FasterPlayerGoesFirst) {

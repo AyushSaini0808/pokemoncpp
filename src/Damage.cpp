@@ -1,4 +1,4 @@
-#include "Damage.h"
+#include "damage_test.h"
 // DAMAGE FORMULA :
 // Damage = ((((2 × Level / 5) + 2) × Power × Attack / Defense) / 50 + 2) × Modifiers
 

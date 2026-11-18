@@ -1,6 +1,6 @@
 #include "Battle.h"
 
-#include "Damage.h"
+#include "damage_test.h"
 #include "TypeChart.h"
 
 Battle::Battle(Pokemon &player, Pokemon &enemy, std::mt19937 &rng)

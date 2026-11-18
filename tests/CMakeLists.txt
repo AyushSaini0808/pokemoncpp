@@ -12,6 +12,7 @@ add_executable(pokemon_tests
         pokemon_test.cpp
         typechart_test.cpp
         damage_test.cpp
+        battle_test.cpp
 )
 target_link_libraries(pokemon_tests PRIVATE pokemon_core GTest::gtest_main)
 
